@@ -1,11 +1,13 @@
 # SNKRSearch
 ## Description
-An application designed to encode and decode text and files using a variety of algorithms (one of them is my own implementation). It also has a key/password generator included.
+Let me tell you a story.
+
+One day I wanted to buy myself a specific pair of sneakers and it took me hours to go through all the websites and filter for that one model and size. It was at that moment I realized that "SNKRSearch" could be a thing. It is both a desktop and a web app that allows you to look for that specific pair of shoes that you want to buy.
 ## Skills gained
-- C++
-- Qt
-- Test-driven developement 
-- Cryptography
+- Python
+- Tkinter
+- Flask + (HTML,CSS,JS)
+- Web Scraping + Requests
 <br>
 <br>
 
