@@ -13,7 +13,8 @@ One day I wanted to buy myself a specific pair of sneakers and it took me hours 
 
 ### Web Version
 <br>
-The website is hosted <a href="https://snkrsearch.herokuapp.com/">here</a>
+The website is hosted <a href="https://snkrsearch.herokuapp.com/">here</a>.
+<br>
 <br>
 <a href="https://gifyu.com/image/Pjv3"><img src="https://s9.gifyu.com/images/webd6f09359db9c3cfd.png" alt="webd6f09359db9c3cfd.png" border="0" /></a>
 <br>
