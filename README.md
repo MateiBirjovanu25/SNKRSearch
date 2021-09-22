@@ -8,7 +8,7 @@ An application designed to encode and decode text and files using a variety of a
 - Cryptography
 <br>
 <br>
-<a href="https://ibb.co/stPqMRC"><img src="https://i.ibb.co/CWtQT86/a1.png" alt="a1" border="0"></a>
+<img src="https://imgur.com/a/DfH6Vje" alt="a1" border="0">
 <br>
 <br>
 *Gifs might stop working, please click on them*
