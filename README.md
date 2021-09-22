@@ -20,8 +20,8 @@ One day I wanted to buy myself a specific pair of sneakers and it took me hours 
 <br>
 
 # ------------------------------------------------------------------------------
-
 <br>
+
 ### Desktop Version
 <a href="https://gifyu.com/image/PjvI"><img src="https://s9.gifyu.com/images/desktop.png" alt="desktop.png" border="0" /></a>
 
