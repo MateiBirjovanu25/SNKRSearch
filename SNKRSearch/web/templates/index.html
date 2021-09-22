@@ -1,0 +1,94 @@
+{% extends 'base.html'%}
+
+{%block head%}
+{%endblock%}
+
+
+{%block body%}
+
+
+<div class="master">
+    <div class="container">
+
+
+        <img class="logo "src="/static/logo2.png" alt="logo",width=200>
+
+        
+        
+        <div class="search">
+            <a href="/results">
+                <img src="/static/search.png" alt="search"
+                style="width:40px; height:40px;padding: 0px;">
+            </a>
+        </div>
+        
+        
+        <form action='/' method="POST" enctype="multipart/form-data">
+            <br>
+            <div class="formInput">
+                <input type="text" onfocus="this.value=''" name="content" id ="content" placeholder="model">
+            </div>
+        
+            <div class="sizeInput">
+                <input type="number" onfocus="this.value=''" min="35" max="50" step="0.5" name="contentSize" id ="contentSize" placeholder="size">
+            </div>
+
+            <div class="formSubmit">
+                <input type="submit" name="submit" value="Search" class="btnSubmit">
+            </div>
+            <br>
+        </form>
+
+        
+        
+        <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="close-btn" onclick="togglePopup()">×</div>
+                    <h1>Sneaker Industry</h1>
+                    <h1>Buzz Sneakers</h1>
+                    <h1>Tike</h1>
+                    <h1>Footshop</h1>
+                    <h1>Epantofi</h1>
+                    <h1>Sportvision</h1>
+            </div>
+        </div>
+
+        <div class="coming_soon" id="coming_soon">
+            <div class="overlay"></div>
+            <div class="content">
+              <div class="close-btn" onclick="toggleDisclaimer()">×</div>
+                    <h1>- multiple pages search</h1>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <div class="container2">
+        <div class="buttonSearch">
+            <button id="searchBtn" onclick="togglePopup()" onmouseover="buttonHover()" onmouseleave="buttonHover()">Included Sites</button>
+        </div>
+
+        <div class="disclaimer">
+            <button id="disclaimerBtn" onclick="toggleDisclaimer()" onmouseover="buttonHover2()" onmouseleave="buttonHover2()">Coming Soon</button>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    <div class="contact">
+        <h1>*If you have any suggestions, please send them at matei.birjovanu@stud.ubbcluj.ro*</h1>
+    </div>
+
+
+</div>
+
+
+
+
+
+    
+
+
+{%endblock%}

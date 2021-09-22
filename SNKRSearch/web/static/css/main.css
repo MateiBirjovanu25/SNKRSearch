@@ -1,0 +1,311 @@
+body {
+    background-color: #eff1e4;
+    font-family: sans-serif; 
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*  logo rotation */
+.logo
+{
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 3%;
+    float: center;
+    text-align: center;
+    -webkit-transition: -webkit-transform 1s;
+            transition: -webkit-transform 1s;
+}
+
+.logo:hover
+{
+    -webkit-transform: rotate(360deg) translateZ(0);
+            transform: rotate(360deg) translateZ(0);
+}
+/*                */
+
+
+/*   text fade  */
+
+.formInput
+{
+    animation: fadeOut 1s ease;
+}
+
+.sizeInput
+{
+    animation: fadeOut 1s ease;
+}
+
+@keyframes fadeOut
+{
+    from{opacity:0}
+    to{opacity: .5}
+}
+
+/*              */
+
+
+
+
+
+
+.master
+{
+    padding-top: 5%;
+}
+
+.container
+{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    /*background-color: #41b3a3;*/
+}
+
+.container2
+{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    /*background-color: #41b3a3;*/
+}
+
+.contact
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    margin-left: 1%;
+    color: #6fb3b8;
+}
+
+
+img
+{
+    width: 20%;
+    height: 20%;
+}
+
+.buttonSearch
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.disclaimer
+{
+    margin-top: 0.5%;
+    text-align: center;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.formInput
+{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 5px;
+}
+
+::placeholder
+{
+    opacity: .6;
+    color: black;
+}
+
+.sizeInput
+{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 5px;
+    
+}
+
+.formSubmit
+{
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 5px;
+}
+
+.btnSubmit:hover
+{
+   background-color: #badfe7; 
+}
+
+
+
+.search
+{
+    clear: both;
+    float:right;
+    display: none;
+}
+
+input
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color:#c2edce;
+    font-weight: bold ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+table,th,td
+{
+    border: 1px solid black;
+}
+
+.results
+{
+    background-color: #007865;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th
+{
+    background-color: #00AB78;
+}
+
+td
+{
+    background-color: #bffff5;
+}
+
+.link
+{
+    width: 100px;
+}
+
+
+.popup .overlay {
+position:fixed;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+background:rgba(0,0,0,0.7);
+z-index:1;
+display:none;
+}
+   
+.popup .content {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) scale(0);
+background:#41b3a3;
+z-index:2;
+text-align:center;
+padding:20px;
+box-sizing:border-box;
+font-family:'Times New Roman', Times, serif;
+border: 5px solid #000;
+}
+   
+.popup .close-btn {
+cursor:pointer;
+position:absolute;
+right:10px;
+top:10px;
+width:30px;
+height:30px;
+background:#222;
+color:#fff;
+font-size:25px;
+font-weight:600;
+line-height:30px;
+text-align:center;
+border-radius:50%;
+}
+
+.popup.active .overlay {
+display:block;
+}
+
+.popup.active .content {
+transition:all 300ms ease-in-out;
+transform:translate(-50%,-50%) scale(1);
+}
+
+.coming_soon .overlay {
+position:fixed;
+top:0px;
+left:0px;
+width:100vw;
+height:100vh;
+background:rgba(0,0,0,0.7);
+z-index:1;
+display:none;
+}
+    
+.coming_soon .content {
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%) scale(0);
+background:#41b3a3;
+z-index:2;
+text-align:center;
+padding:20px;
+box-sizing:border-box;
+font-family:'Times New Roman', Times, serif;
+border: 5px solid #000;
+}
+    
+.coming_soon .close-btn {
+cursor:pointer;
+position:absolute;
+right:10px;
+top:10px;
+width:30px;
+height:30px;
+background:#222;
+color:#fff;
+font-size:25px;
+font-weight:600;
+line-height:30px;
+text-align:center;
+border-radius:50%;
+}
+
+.coming_soon.active .overlay {
+display:block;
+}
+
+.coming_soon.active .content {
+transition:all 300ms ease-in-out;
+transform:translate(-50%,-50%) scale(1);
+}
+
+button {
+    background-color: #6fb3b8;
+    border: 2px solid #222;
+    padding:15px;
+    color: black;
+    font-weight: bold;
+    font-size:18px;
+    width: 20%;
+}
+
+button.active
+{
+    background-color: #badfe7; 
+    border-color: black;
+}
