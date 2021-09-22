@@ -2,7 +2,7 @@
 ## Description
 Let me tell you a story.
 
-One day I wanted to buy myself a specific pair of sneakers and it took me hours to go through all the websites and filter for that one model and size. It was at that moment I realized that "SNKRSearch" could be a thing. It is both a desktop and a web app that allows you to look for that specific pair of shoes that you want to buy.
+One day I wanted to buy myself a specific pair of sneakers and it took me hours to go through all the websites and filter for that one model and size. It was at that moment I realized that "SNKRSearch" could be a thing. It is both a desktop and a web app that allows you to look for that specific pair of shoes that you want to buy. You just have to enter the model and the size and the app will search on all the websites included. After that, it will generate a list with the website name, price and link.
 ## Skills gained
 - Python
 - Tkinter
